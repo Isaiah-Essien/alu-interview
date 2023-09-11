@@ -4,6 +4,7 @@ A script to calculate the fewest number of operations needed
 to result in exactly n H characters in the file.
 """
 
+
 def minOperations(target):
     """
     Calculates the minimum number of operations needed
@@ -31,4 +32,3 @@ def minOperations(target):
             mN += 1
 
     return mN
-
