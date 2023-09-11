@@ -4,7 +4,7 @@ A script to calculate the fewest number of operations needed
 to result in exactly n H characters in the file.
 """
 
-def calculateMinOperations(target):
+def minOperations(target):
     """
     Calculates the minimum number of operations needed
     to achieve the target number of characters in the file.
