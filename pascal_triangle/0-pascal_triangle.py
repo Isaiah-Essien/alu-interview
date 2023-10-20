@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This script defines a function to generate Pascal's Triangle up to a given row 'n'."""
+"""This script defines a function to generate Pascal's Triangle."""
 
 
 def pascal_triangle(n):
-    """Generate Pascal's Triangle up to row 'n' and return it as a list of lists."""
+    """Generate Pascal's Triangle up to row 'n'"""
     if n <= 0:
         return []
     triangle = [[1]]
